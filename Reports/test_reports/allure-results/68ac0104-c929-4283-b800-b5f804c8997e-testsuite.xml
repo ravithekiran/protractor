@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488445632966" stop="1488445650795">
+	<name>TA-006 TypeAhead-Location Suggestions Validation</name>
+	<title>TA-006 TypeAhead-Location Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1488445632967" stop="1488445644473" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="23ab4ac7-33b3-4490-94d7-8122a1636e30-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488445644474" stop="1488445644721" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="38847cd7-c489-4cfc-a810-04c67f410ad7-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488445644722" stop="1488445646322" status="passed">
+			<name>Entering  keyword New</name>
+			<title>Entering  keyword New</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2b2d6f1a-0668-4582-87b4-4b05a4358c67-attachment.png" type="image/png" size="299080"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488445646322" stop="1488445646832" status="failed">
+			<name>Getting  all Locationsuggestions from TypeAhead New</name>
+			<title>Getting  all Locationsuggestions from TypeAhead New</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="587bb12d-0a40-4eb3-b588-9bd113ce2fd6-attachment.png" type="image/png" size="299056"/>
+			</attachments>
+			<failure>
+				<message>Failed: fs is not defined</message>
+				<stack-trace>ReferenceError: fs is not defined
+    at E:\protractorcms\cyborg\features\TA\common\ta_common.js:52:33
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Getting  all Locationsuggestions from TypeAhead New&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at common.getAllSuggestionsAndValidate (E:\protractorcms\cyborg\features\TA\common\ta_common.js:40:5)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-006\TA-006.js:19:20)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-006\TA-006.js:11:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488445646832" stop="1488445648368" status="passed">
+			<name>Entering  keyword Ha</name>
+			<title>Entering  keyword Ha</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="609a1664-713c-4877-b5e0-a22552f9d416-attachment.png" type="image/png" size="289510"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488445648368" stop="1488445648814" status="failed">
+			<name>Getting  all Locationsuggestions from TypeAhead Ha</name>
+			<title>Getting  all Locationsuggestions from TypeAhead Ha</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="dae66702-1fe0-4e7f-81df-6aa1612ec883-attachment.png" type="image/png" size="289486"/>
+			</attachments>
+			<failure>
+				<message>Failed: fs is not defined</message>
+				<stack-trace>ReferenceError: fs is not defined
+    at E:\protractorcms\cyborg\features\TA\common\ta_common.js:52:33
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Getting  all Locationsuggestions from TypeAhead Ha&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at common.getAllSuggestionsAndValidate (E:\protractorcms\cyborg\features\TA\common\ta_common.js:40:5)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-006\TA-006.js:19:20)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-006\TA-006.js:11:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488445648815" stop="1488445650363" status="passed">
+			<name>Entering  keyword s</name>
+			<title>Entering  keyword s</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9da0ac4e-6dca-49bd-8582-66b7dd865d77-attachment.png" type="image/png" size="286965"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488445650363" stop="1488445650795" status="failed">
+			<name>Getting  all Locationsuggestions from TypeAhead s</name>
+			<title>Getting  all Locationsuggestions from TypeAhead s</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a9edbc71-1f1a-4aa3-b2c6-6cebf1f93413-attachment.png" type="image/png" size="286939"/>
+			</attachments>
+			<failure>
+				<message>Failed: fs is not defined</message>
+				<stack-trace>ReferenceError: fs is not defined
+    at E:\protractorcms\cyborg\features\TA\common\ta_common.js:52:33
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Getting  all Locationsuggestions from TypeAhead s&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at common.getAllSuggestionsAndValidate (E:\protractorcms\cyborg\features\TA\common\ta_common.js:40:5)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-006\TA-006.js:19:20)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-006\TA-006.js:11:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

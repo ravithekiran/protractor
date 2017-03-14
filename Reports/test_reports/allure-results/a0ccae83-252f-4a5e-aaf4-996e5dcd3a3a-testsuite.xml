@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489403443373" stop="1489403464350">
+	<name>Validating footer sharing links in footer</name>
+	<title>Validating footer sharing links in footer</title>
+	<test-cases>
+		<test-case start="1489403443374" stop="1489403452688" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="50b1d875-a3cf-4962-971d-768551f9691e-attachment.png" type="image/png" size="874297"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403452689" stop="1489403453380" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="75a8b82d-493f-4ae2-b29e-148b2b4c7fe9-attachment.png" type="image/png" size="804207"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403453380" stop="1489403454092" status="passed">
+			<name>comparing TestData and Site Sharing footer Links Count</name>
+			<title>comparing TestData and Site Sharing footer Links Count</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="56ecf6f3-30f3-4b98-8f15-d74f073f1dd4-attachment.png" type="image/png" size="803898"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403454092" stop="1489403454786" status="passed">
+			<name>Comparing href values of Social Sharing Links in footer at index 0</name>
+			<title>Comparing href values of Social Sharing Links in footer at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c4834c13-8bdd-4988-a466-5db4faed9ff0-attachment.png" type="image/png" size="806090"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403454786" stop="1489403455233" status="passed">
+			<name>Clicking Social Sharing Links in footer at idx 0</name>
+			<title>Clicking Social Sharing Links in footer at idx 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="27dfcae8-f8fa-4041-b334-8e59255dc3c8-attachment.png" type="image/png" size="238635"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403455233" stop="1489403456549" status="passed">
+			<name>Shifting windows and validating them of link at index 0</name>
+			<title>Shifting windows and validating them of link at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0ae4e986-a43d-4a6d-ac3f-e8718f9ab11f-attachment.png" type="image/png" size="238635"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403456549" stop="1489403456806" status="passed">
+			<name>Comparing href values of Social Sharing Links in footer at index 1</name>
+			<title>Comparing href values of Social Sharing Links in footer at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="44417d66-4de7-445b-ad53-96017c7214e4-attachment.png" type="image/png" size="238635"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403456806" stop="1489403457276" status="passed">
+			<name>Clicking Social Sharing Links in footer at idx 1</name>
+			<title>Clicking Social Sharing Links in footer at idx 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="99f8b48a-255b-4d59-a447-0c412efceefa-attachment.png" type="image/png" size="238593"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403457276" stop="1489403458632" status="passed">
+			<name>Shifting windows and validating them of link at index 1</name>
+			<title>Shifting windows and validating them of link at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="434fcf72-19c7-4c16-ae0d-1e93dceb9a04-attachment.png" type="image/png" size="238593"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403458632" stop="1489403458914" status="passed">
+			<name>Comparing href values of Social Sharing Links in footer at index 2</name>
+			<title>Comparing href values of Social Sharing Links in footer at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3a50c7c8-2954-4f3e-9597-79a36ea69ca3-attachment.png" type="image/png" size="238593"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403458914" stop="1489403459309" status="passed">
+			<name>Clicking Social Sharing Links in footer at idx 2</name>
+			<title>Clicking Social Sharing Links in footer at idx 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0e3c7963-5bbf-42ac-a384-c5e9265c421d-attachment.png" type="image/png" size="238537"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403459309" stop="1489403460566" status="passed">
+			<name>Shifting windows and validating them of link at index 2</name>
+			<title>Shifting windows and validating them of link at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="96a748a8-54c3-4a0b-bc0f-644096967d2b-attachment.png" type="image/png" size="238594"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403460566" stop="1489403460805" status="passed">
+			<name>Comparing href values of Social Sharing Links in footer at index 3</name>
+			<title>Comparing href values of Social Sharing Links in footer at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="844aaee1-377b-4ce1-ac36-8a7abd64b923-attachment.png" type="image/png" size="238594"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403460805" stop="1489403461154" status="passed">
+			<name>Clicking Social Sharing Links in footer at idx 3</name>
+			<title>Clicking Social Sharing Links in footer at idx 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0001f8fe-221c-4f4f-be26-7bb36fb7c7e3-attachment.png" type="image/png" size="238537"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403461154" stop="1489403462408" status="passed">
+			<name>Shifting windows and validating them of link at index 3</name>
+			<title>Shifting windows and validating them of link at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1fc24255-ea64-4e80-822e-674ae4b388be-attachment.png" type="image/png" size="238595"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403462408" stop="1489403462646" status="passed">
+			<name>Comparing href values of Social Sharing Links in footer at index 4</name>
+			<title>Comparing href values of Social Sharing Links in footer at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="01c7f1a9-4caa-42a5-8b55-bcbb31a4c126-attachment.png" type="image/png" size="238595"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403462646" stop="1489403463100" status="passed">
+			<name>Clicking Social Sharing Links in footer at idx 4</name>
+			<title>Clicking Social Sharing Links in footer at idx 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1d5a1cb9-8ab1-4808-b5f4-2bf9f1b0464c-attachment.png" type="image/png" size="238590"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489403463101" stop="1489403464349" status="passed">
+			<name>Shifting windows and validating them of link at index 4</name>
+			<title>Shifting windows and validating them of link at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="82676d4e-778e-47fb-8dfb-9523ef7aaeb2-attachment.png" type="image/png" size="238590"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

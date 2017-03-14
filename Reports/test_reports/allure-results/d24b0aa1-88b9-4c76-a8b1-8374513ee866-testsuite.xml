@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489058386536" stop="1489058410584">
+	<name>Validating Links in Footer</name>
+	<title>Validating Links in Footer</title>
+	<test-cases>
+		<test-case start="1489058386537" stop="1489058407260" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5836f773-b234-46aa-8744-4bf476437944-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489058407261" stop="1489058407480" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ab99f054-2a4c-4d99-804b-d823ad8ec4be-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489058407480" stop="1489058407748" status="passed">
+			<name>comparing TestData and Site footer Links Count</name>
+			<title>comparing TestData and Site footer Links Count</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d2368554-ccea-4d61-a6a5-9b1d99f57e5e-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489058407748" stop="1489058408044" status="passed">
+			<name>Comparing value or text of link in footer at index 0</name>
+			<title>Comparing value or text of link in footer at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="602b6314-060c-4f3d-8c67-e17e274c4998-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489058408044" stop="1489058408423" status="passed">
+			<name>Comparing href values of links in footer at index 0</name>
+			<title>Comparing href values of links in footer at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5db29691-1d81-4e8f-a25a-125740af7a0a-attachment.png" type="image/png" size="314306"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489058408423" stop="1489058410157" status="passed">
+			<name>Clicking links in footer at idx 0</name>
+			<title>Clicking links in footer at idx 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cbbf7d9a-7cf0-4eb2-88d2-f49d83d6ed51-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489058410157" stop="1489058410584" status="failed">
+			<name>Shifting windows and validating them of link at index 0</name>
+			<title>Shifting windows and validating them of link at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9205d82f-d9c1-40fe-a081-b643b247250e-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: Error occurred while clicking browser back by comparing before and after Urls:TypeError: Cannot read property &apos;info&apos; of undefined</message>
+				<stack-trace>Error: Failed: Error occurred while clicking browser back by comparing before and after Urls:TypeError: Cannot read property &apos;info&apos; of undefined
+    at stack (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1577:17)
+    at buildExpectationResult (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1547:14)
+    at Spec.expectationResultFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:638:18)
+    at Spec.addExpectationResult (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:330:34)
+    at Env.fail (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:987:25)
+    at Function.next.fail (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1903:19)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:61:7
+    at ControlFlow.emit (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2565:10)
+    at shutdownTask_.MicroTask (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2490:53)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

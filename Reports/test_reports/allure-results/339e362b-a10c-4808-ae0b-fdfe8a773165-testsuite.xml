@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488803239338" stop="1488803262829">
+	<name>Validating Sharing icons in footer</name>
+	<title>Validating Sharing icons in footer</title>
+	<test-cases>
+		<test-case start="1488803239339" stop="1488803261367" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="291b834a-a44b-4849-8f83-c2e1229829b0-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488803261369" stop="1488803261862" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="fe98392e-5d34-4ef3-836f-e57d45398cc5-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488803261862" stop="1488803262828" status="passed">
+			<name>ncdh</name>
+			<title>ncdh</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="db8ea334-422d-4e05-8342-3583eeab6602-attachment.png" type="image/png" size="57834"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

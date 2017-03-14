@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488804407168" stop="1488804429531">
+	<name>Validating Sharing icons in footer</name>
+	<title>Validating Sharing icons in footer</title>
+	<test-cases>
+		<test-case start="1488804407169" stop="1488804428926" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3da135f9-47a2-4bbf-9d97-761fcfa5198a-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488804428927" stop="1488804429308" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3a3f6797-fcb7-486c-985e-b907f3e1371b-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488804429308" stop="1488804429530" status="passed">
+			<name>Scrolling to Bottom of Page</name>
+			<title>Scrolling to Bottom of Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f6391660-4140-4e09-83b1-21004cfedc64-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

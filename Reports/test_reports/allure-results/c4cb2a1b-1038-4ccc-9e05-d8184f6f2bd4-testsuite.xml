@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488891205919" stop="1488891230412">
+	<name>Validating Links in Footer</name>
+	<title>Validating Links in Footer</title>
+	<test-cases>
+		<test-case start="1488891205920" stop="1488891215586" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6c96b25f-db09-4ff7-b148-fddf141e50d6-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488891215586" stop="1488891215817" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3e8a0af9-187b-4d29-a406-5f5a082e5e7e-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488891215817" stop="1488891230412" status="failed">
+			<name>Validating each Footer link</name>
+			<title>Validating each Footer link</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5b204bb2-763a-42dc-8514-13a486e06c76-attachment.png" type="image/png" size="193944"/>
+			</attachments>
+			<failure>
+				<message>Expected null to equal &apos;http://www.apexlifesciences.com/about&apos;, &apos;Expected and actual href values of social sharing in footer are not matching&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\FT\FT-002\FT-002.js:28:39
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

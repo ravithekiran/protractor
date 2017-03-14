@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488542072073" stop="1488542083757">
+	<name>Validate Footer</name>
+	<title>Validate Footer</title>
+	<test-cases>
+		<test-case start="1488542072074" stop="1488542083526" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2574a1d4-7558-4166-aea6-b52cc238c4e1-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488542083527" stop="1488542083757" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="af989e6a-a4e7-4d34-8b3c-b6205818b41a-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

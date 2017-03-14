@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488462188149" stop="1488462197371">
+	<name>TA-003 TypeAhead-Recent Search Suggestions Validation</name>
+	<title>TA-003 TypeAhead-Recent Search Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1488462188150" stop="1488462195549" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="fde5e991-56b5-40c2-8729-62fd7b8214ec-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462195550" stop="1488462195771" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6d0d2908-30c3-43b7-8c64-9fa65885d4ed-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462195771" stop="1488462197370" status="passed">
+			<name>Entering  keyword Ravi</name>
+			<title>Entering  keyword Ravi</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a987e354-22aa-45b2-b00f-8ea5382819fd-attachment.png" type="image/png" size="312183"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

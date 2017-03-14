@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488786390274" stop="1488786411689">
+	<name>Validate Footer</name>
+	<title>Validate Footer</title>
+	<test-cases>
+		<test-case start="1488786390275" stop="1488786403786" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c3050952-a4e3-4b1d-aa7b-3a72850442ea-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488786403787" stop="1488786404004" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="51f3f517-1a87-482f-ad35-43e942bdebc0-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488786404004" stop="1488786411688" status="passed">
+			<name>ddf</name>
+			<title>ddf</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="65e54d9b-9710-4dc6-bb79-f2047dc0057c-attachment.png" type="image/png" size="90060"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

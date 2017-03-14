@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488452930668" stop="1488452975965">
+	<name>TA-003 TypeAhead-Recent Search Suggestions Validation</name>
+	<title>TA-003 TypeAhead-Recent Search Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1488452930668" stop="1488452947127" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="90a8f0b5-92f0-4aef-b46d-bdbd9d20cc17-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452947128" stop="1488452947386" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="49962dfd-3d2a-4872-bae8-e526c6cdb194-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452947386" stop="1488452948948" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="32ebe698-b0f2-4243-aae5-21b377b7fa09-attachment.png" type="image/png" size="295497"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452948949" stop="1488452951174" status="passed">
+			<name>Getting  all suggestions from TypeAhead and validating</name>
+			<title>Getting  all suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2804eaa2-c032-45dd-b196-74847dd60498-attachment.png" type="image/png" size="295497"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452951174" stop="1488452961208" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a54864b9-b58a-4dbe-b4f0-ca4c3dc32e65-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452961208" stop="1488452961426" status="passed">
+			<name>Constructing Recent searches data Manually</name>
+			<title>Constructing Recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a6b7e238-b2db-44cd-bcdc-507fe62bb3ef-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452961426" stop="1488452963135" status="passed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f321d5f2-3d2a-4aef-8299-b9c5ad1d8cc7-attachment.png" type="image/png" size="99214"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452963136" stop="1488452963359" status="failed">
+			<name>Getting  all suggestions from TypeAhead and validating</name>
+			<title>Getting  all suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="29ac1d2c-0c62-438f-9756-f4e22907804b-attachment.png" type="image/png" size="128713"/>
+			</attachments>
+			<failure>
+				<message>Expected [ &apos;resume&apos; ] to equal [ &apos;document&apos; ], &apos;Recent Searches data is not Matching&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\TA\TA-003\TA-003.js:26:47
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488452963359" stop="1488452964648" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7394cfc5-5789-4d52-8f10-60bd8c7ca781-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452964648" stop="1488452964834" status="passed">
+			<name>Constructing Recent searches data Manually</name>
+			<title>Constructing Recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cdd320c8-6677-4869-bc4d-1603366bb34b-attachment.png" type="image/png" size="69499"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452964834" stop="1488452966658" status="passed">
+			<name>Entering  keyword attorney</name>
+			<title>Entering  keyword attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="24b47c43-1c8d-4713-96fc-f13469fcaeb5-attachment.png" type="image/png" size="136679"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452966658" stop="1488452966900" status="failed">
+			<name>Getting  all suggestions from TypeAhead and validating</name>
+			<title>Getting  all suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="fa0e9d07-8bbe-40c1-8f86-d0558a4bfdbf-attachment.png" type="image/png" size="136651"/>
+			</attachments>
+			<failure>
+				<message>Expected [ &apos;resume&apos; ] to equal [ &apos;resume&apos;, &apos;document&apos; ], &apos;Recent Searches data is not Matching&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\TA\TA-003\TA-003.js:26:47
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488452966901" stop="1488452968601" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d061d7f4-d3d8-4b4a-814f-91805b9b90b2-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452968601" stop="1488452968791" status="passed">
+			<name>Constructing Recent searches data Manually</name>
+			<title>Constructing Recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="87cdd062-69d1-485f-a05a-9c302ce73c67-attachment.png" type="image/png" size="69499"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452968791" stop="1488452970247" status="passed">
+			<name>Entering  keyword manager</name>
+			<title>Entering  keyword manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5f8e4667-db61-40a8-88eb-08c72b1c2154-attachment.png" type="image/png" size="80333"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452970247" stop="1488452970516" status="failed">
+			<name>Getting  all suggestions from TypeAhead and validating</name>
+			<title>Getting  all suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b48ca9e9-2f88-4d07-9bda-29703d597db9-attachment.png" type="image/png" size="80391"/>
+			</attachments>
+			<failure>
+				<message>Expected [ &apos;resume&apos; ] to equal [ &apos;attorney&apos;, &apos;resume&apos;, &apos;document&apos; ], &apos;Recent Searches data is not Matching&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\TA\TA-003\TA-003.js:26:47
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488452970516" stop="1488452971642" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="270f11f1-2cd5-489a-bafb-a2615c7a0b02-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452971642" stop="1488452971953" status="passed">
+			<name>Constructing Recent searches data Manually</name>
+			<title>Constructing Recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3d3e50a4-a8cd-4393-9ea1-c17118e55169-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452971953" stop="1488452973781" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="91605cc4-1431-4ea8-8e16-545725362878-attachment.png" type="image/png" size="148134"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452973781" stop="1488452974086" status="failed">
+			<name>Getting  all suggestions from TypeAhead and validating</name>
+			<title>Getting  all suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="20c79e74-c7cd-49fe-97fc-dd1842838a42-attachment.png" type="image/png" size="148092"/>
+			</attachments>
+			<failure>
+				<message>Expected [ &apos;resume&apos; ] to equal [ &apos;manager&apos;, &apos;attorney&apos;, &apos;resume&apos; ], &apos;Recent Searches data is not Matching&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\TA\TA-003\TA-003.js:26:47
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488452974086" stop="1488452975733" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6bd53cfb-b772-434b-b943-f508d706a918-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488452975733" stop="1488452975965" status="passed">
+			<name>Constructing Recent searches data Manually</name>
+			<title>Constructing Recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="42e1ec86-5048-4bde-8ba9-abb9a3e7f983-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

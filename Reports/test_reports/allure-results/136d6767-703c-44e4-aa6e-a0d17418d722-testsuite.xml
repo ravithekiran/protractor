@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488372573176" stop="1488372753642">
+	<name>TypeAhead-Location Suggestions Validation</name>
+	<title>TypeAhead-Location Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1488372573177" stop="1488372663439" status="failed">
+			<name>Launch Home Page </name>
+			<title>Launch Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0f53f8db-23ef-4f3d-b1fa-baf910643558-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+				<stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (e:\protractorcms\cyborg\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1973:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488372663440" stop="1488372753642" status="failed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="38d802de-dd0b-472e-bb6c-e04dd4c2db2e-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+				<stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (e:\protractorcms\cyborg\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1973:23)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

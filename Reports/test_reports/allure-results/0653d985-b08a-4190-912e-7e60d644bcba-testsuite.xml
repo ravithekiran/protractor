@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488866046705" stop="1488866058829">
+	<name>Validating Footer</name>
+	<title>Validating Footer</title>
+	<test-cases>
+		<test-case start="1488866046707" stop="1488866058138" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c2318699-406c-45e7-b77f-da99a079e1e6-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488866058138" stop="1488866058367" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="97187190-9f24-4b88-be2c-c7af2bcf16e0-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488866058367" stop="1488866058610" status="passed">
+			<name>Scrolling to Bottom of Page</name>
+			<title>Scrolling to Bottom of Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="490046f9-3f07-4cc4-92b3-102a7ece47c5-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488866058610" stop="1488866058828" status="passed">
+			<name>mvvmb</name>
+			<title>mvvmb</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8bd1a70a-48dc-4e9f-aba1-d6cb43cf789a-attachment.png" type="image/png" size="90064"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

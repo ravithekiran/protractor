@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488956896651" stop="1488956923064">
+	<name>Validating Links in Footer</name>
+	<title>Validating Links in Footer</title>
+	<test-cases>
+		<test-case start="1488956896652" stop="1488956923063" status="passed">
+			<name>Footer</name>
+			<title>Footer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="bb81c681-b00a-490c-8f29-09de88b56877-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

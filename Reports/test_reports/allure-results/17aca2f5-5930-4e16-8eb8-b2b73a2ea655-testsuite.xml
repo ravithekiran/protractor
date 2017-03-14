@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488888675918" stop="1488888689420">
+	<name>Events Validation</name>
+	<title>Events Validation</title>
+	<test-cases>
+		<test-case start="1488888675919" stop="1488888688580" status="passed">
+			<name>Launch Home Page </name>
+			<title>Launch Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d0f30a02-3218-4bf9-8435-a746b1433024-attachment.png" type="image/png" size="585311"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488888688581" stop="1488888689419" status="passed">
+			<name>Load JS files</name>
+			<title>Load JS files</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="67b98df0-84bd-456a-b896-1305a6f48933-attachment.png" type="image/png" size="594804"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

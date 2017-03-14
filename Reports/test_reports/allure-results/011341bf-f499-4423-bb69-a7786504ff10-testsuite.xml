@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488804100034" stop="1488804116799">
+	<name>Validating Sharing icons in footer</name>
+	<title>Validating Sharing icons in footer</title>
+	<test-cases>
+		<test-case start="1488804100035" stop="1488804116188" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e755414d-50b3-40b6-9723-e660ef032007-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488804116188" stop="1488804116426" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9b01fa51-1732-4096-b9b8-7b091686318b-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488804116426" stop="1488804116652" status="passed">
+			<name>Scrolling to Bottom of Page</name>
+			<title>Scrolling to Bottom of Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="189bd3a3-72f1-435c-bb06-9920306447ab-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488804116652" stop="1488804116798" status="passed">
+			<name>jfk</name>
+			<title>jfk</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f104449f-d450-4a4f-8ad0-1837e7f0b47a-attachment.png" type="image/png" size="90064"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

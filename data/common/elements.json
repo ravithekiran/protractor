@@ -1,0 +1,23 @@
+{
+  "globalsearch":{
+    "searchbox":"css@input[name=\"phsKeywords\"]",
+    "categoriesjobcount":"css@div[class=\"phs-search-categories\"]>ul>li>a>span:nth-child(1)"
+  },
+  "search":{
+    "sortbyrecent":"css@select[id='sortselect']",
+    "posteddates":"css@div[class='actions']>span",
+    "jobtitles":"css@div[class='phs-jobs-list'] ul li h4",
+    "joblocation":"css@span[show\\.bind='result.location']",
+    "jobcategory":"css@span[show\\.bind='result.category']"
+  },
+  "jdpage":{
+    "jdcontent":"css@section[class='job-description']"
+  },
+  "typeahead":{
+    "locations":"css@ul[class='phs-locations-suggested-list'] li a",
+    "categories":"css@ul[class='phs-categorys-suggested-list'] li a",
+    "jobs":"css@ul[class='phs-jobs-list'] li a div[class='phs-job-title'] span:nth-child(2)",
+    "recentsearches":"css@ul[class='search-recentsearchs-list'] li a"
+  }
+
+}

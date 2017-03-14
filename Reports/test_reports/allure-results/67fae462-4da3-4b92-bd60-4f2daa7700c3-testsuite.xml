@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488809770188" stop="1488809818953">
+	<name>TA-005 TypeAhead-Keyword Suggestions Validation</name>
+	<title>TA-005 TypeAhead-Keyword Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1488809770188" stop="1488809794399" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="47ea4244-fe77-4e06-9d53-825ecce85f3e-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809794400" stop="1488809794644" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1bd91336-b768-4428-9c81-b243b93f65ef-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809794644" stop="1488809794911" status="failed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c85903f1-3942-4f00-b788-e0aa580aade2-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword document&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809794911" stop="1488809797376" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="04194490-f58e-443e-9066-4605404ab968-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809797376" stop="1488809797594" status="failed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="71569bb8-38b4-4d38-86e3-8c1c1cbd5846-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword resume&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809797594" stop="1488809800100" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead resume</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="21f45629-512d-4eaa-a790-02768701c869-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809800100" stop="1488809800310" status="failed">
+			<name>Entering  keyword attorney</name>
+			<title>Entering  keyword attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f942a39e-1fa8-4f42-8526-d2c900f65abc-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword attorney&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809800310" stop="1488809802794" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead attorney</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="13276787-3c16-4d1f-b96a-5b83b3881222-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809802794" stop="1488809803016" status="failed">
+			<name>Entering  keyword manager</name>
+			<title>Entering  keyword manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a0b7fe11-2678-4354-b44d-567a231c8631-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword manager&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809803017" stop="1488809805515" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead manager</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1eab380c-4602-4f03-9319-db2e13a1ab0b-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809805515" stop="1488809805729" status="failed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="38237e54-55b6-40ab-923b-04429ea68661-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword document&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809805729" stop="1488809808231" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="785fe098-768d-42aa-b106-a1442ef29f07-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809808231" stop="1488809808448" status="failed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="427849da-a0d1-488b-902d-972459b69cf8-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword resume&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809808448" stop="1488809810973" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead resume</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="72ed9d13-d10f-48ce-a453-ead9c8d324a9-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809810973" stop="1488809811157" status="failed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="88bf1f79-479a-4e75-9bc6-5772ee126730-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword sales&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809811157" stop="1488809813646" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead sales</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0c30ee12-6e16-47d8-8c6a-cd4eb4f9ba1d-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809813646" stop="1488809813876" status="failed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="61c71a0c-770c-409c-b05e-4d85d5f4075d-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword document&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809813876" stop="1488809816286" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="629e3e4f-946b-4634-9bc9-495c9d9ae6a2-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488809816286" stop="1488809816486" status="failed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4184594e-d709-4011-be3a-d7520a95a883-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>Failed: this.Click is not a function</message>
+				<stack-trace>TypeError: this.Click is not a function
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\utility\user_actions.js:243:18)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Entering  keyword sales&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at UserActions.typeKeyword (E:\protractorcms\cyborg\utility\user_actions.js:242:9)
+    at keywordTypeAhead (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:22:21)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:14:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488809816486" stop="1488809818952" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead sales</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="761abcee-a8b5-4559-92b9-206679d92ac5-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489129935436" stop="1489129961814">
+	<name>TA-006 TypeAhead-Location Suggestions Validation</name>
+	<title>TA-006 TypeAhead-Location Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1489129935437" stop="1489129955164" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="66689d5a-e825-4c7e-a91f-9619bfa9011d-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489129955164" stop="1489129955458" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2f9f38c1-f0f9-492f-a4de-37f8bd1b8964-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489129955458" stop="1489129957038" status="passed">
+			<name>Entering  keyword New</name>
+			<title>Entering  keyword New</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="80433383-ac3f-4c91-a8d2-6d09be3d732d-attachment.png" type="image/png" size="312239"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489129957038" stop="1489129958507" status="passed">
+			<name>Getting  all Location suggestions from TypeAhead New</name>
+			<title>Getting  all Location suggestions from TypeAhead New</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f597dac6-7db4-4a24-8c6d-9019c62a30f4-attachment.png" type="image/png" size="289198"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489129958508" stop="1489129959850" status="passed">
+			<name>Entering  keyword Ha</name>
+			<title>Entering  keyword Ha</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e66ba57f-85f6-4cda-b427-0e881c547e40-attachment.png" type="image/png" size="290150"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489129959850" stop="1489129960163" status="passed">
+			<name>Getting  all Location suggestions from TypeAhead Ha</name>
+			<title>Getting  all Location suggestions from TypeAhead Ha</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4bb4cec6-d688-42d9-9406-b5a9b7098d05-attachment.png" type="image/png" size="290124"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489129960163" stop="1489129961550" status="passed">
+			<name>Entering  keyword s</name>
+			<title>Entering  keyword s</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ce1dd8ef-452c-4b25-a274-7c3fc51b8a90-attachment.png" type="image/png" size="290004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489129961550" stop="1489129961813" status="passed">
+			<name>Getting  all Location suggestions from TypeAhead s</name>
+			<title>Getting  all Location suggestions from TypeAhead s</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e2b95edf-9c31-447a-b7ac-8e1f5cf85edf-attachment.png" type="image/png" size="289977"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

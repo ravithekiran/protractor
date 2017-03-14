@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489413145536" stop="1489413198236">
+	<name>Validating links in header</name>
+	<title>Validating links in header</title>
+	<test-cases>
+		<test-case start="1489413145537" stop="1489413169725" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4d57cfc3-18b5-41f8-a0cd-cb59da339463-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413169725" stop="1489413170420" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f6fd50d1-b46e-4b94-8691-612fa3c2609a-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413170420" stop="1489413171145" status="passed">
+			<name>comparing TestData and Site header Links Count</name>
+			<title>comparing TestData and Site header Links Count</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cd654b9e-1a5a-487f-955d-1a7d58a98de9-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413171145" stop="1489413171881" status="passed">
+			<name>Comparing value or text of link in footer at index 0</name>
+			<title>Comparing value or text of link in footer at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="152ca1a0-250e-4b4c-b0f6-099437fbcd6d-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413171881" stop="1489413172635" status="passed">
+			<name>Comparing href values of links in header at index 0</name>
+			<title>Comparing href values of links in header at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f7146e3f-e106-4cac-960e-1ff2a0ba121c-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413172635" stop="1489413173526" status="passed">
+			<name>Clicking link in header at idx 0</name>
+			<title>Clicking link in header at idx 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c7e99b81-eeb3-4fd1-8045-5d7348445ca5-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413173526" stop="1489413175291" status="passed">
+			<name>Shifting windows and validating them of link at index 0</name>
+			<title>Shifting windows and validating them of link at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="31a31cda-76d7-47d0-8cbd-a39b9b815b9e-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413175291" stop="1489413175979" status="passed">
+			<name>Comparing value or text of link in footer at index 1</name>
+			<title>Comparing value or text of link in footer at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5c034b23-08d2-4569-a132-4c3d468435ca-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413175979" stop="1489413176710" status="passed">
+			<name>Comparing href values of links in header at index 1</name>
+			<title>Comparing href values of links in header at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9307bcb2-bf62-480e-9c6f-0e072ad8323c-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413176710" stop="1489413177591" status="passed">
+			<name>Clicking link in header at idx 1</name>
+			<title>Clicking link in header at idx 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="43b33cf4-29e5-4a23-a0bf-3267ed849b33-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413177591" stop="1489413179500" status="passed">
+			<name>Shifting windows and validating them of link at index 1</name>
+			<title>Shifting windows and validating them of link at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f1e41856-ceeb-4d11-98d7-ee270f55ec98-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413179500" stop="1489413180187" status="passed">
+			<name>Comparing value or text of link in footer at index 2</name>
+			<title>Comparing value or text of link in footer at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="287da1aa-2953-4b79-a815-10392204000c-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413180187" stop="1489413180875" status="passed">
+			<name>Comparing href values of links in header at index 2</name>
+			<title>Comparing href values of links in header at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="991643c3-cb47-4fd0-9b0f-d422d1d71ccf-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413180875" stop="1489413181684" status="passed">
+			<name>Clicking link in header at idx 2</name>
+			<title>Clicking link in header at idx 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8ce3a333-ceea-45aa-ae10-5810fd0a9012-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413181684" stop="1489413183396" status="passed">
+			<name>Shifting windows and validating them of link at index 2</name>
+			<title>Shifting windows and validating them of link at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9b977cd5-00eb-4f0b-a6fc-3cd2e17e4f22-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413183396" stop="1489413184100" status="passed">
+			<name>Comparing value or text of link in footer at index 3</name>
+			<title>Comparing value or text of link in footer at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7d75a654-9090-46f4-b234-bbf09a979200-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413184100" stop="1489413184814" status="failed">
+			<name>Comparing href values of links in header at index 3</name>
+			<title>Comparing href values of links in header at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="204cff78-5e70-4fb6-96f1-726e78890536-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;http://blackrock.dev.phenompro.com/blackrockoncampus&apos; to equal &apos;http://www.blackrockoncampus.com/&apos;, &apos;Mismatch of href values of link in header&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:18:31)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489413184814" stop="1489413186990" status="passed">
+			<name>Clicking link in header at idx 3</name>
+			<title>Clicking link in header at idx 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="87362b71-2be2-44ea-95d6-2e775b464f12-attachment.png" type="image/png" size="4225"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413186990" stop="1489413189421" status="failed">
+			<name>Shifting windows and validating them of link at index 3</name>
+			<title>Shifting windows and validating them of link at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ca69ef0d-a813-480b-8eb9-b5e29bcc1104-attachment.png" type="image/png" size="884936"/>
+			</attachments>
+			<failure>
+				<message>Expected 1 to equal 2, &apos;Link should open in a new window but it opened in same window&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at userActions.shiftingBrowserWindowTabs (E:\protractorcms\cyborg\utility\user_actions.js:86:39)
+    at E:\protractorcms\cyborg\features\header1\common\hea_common.js:27:29
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489413189421" stop="1489413190955" status="passed">
+			<name>Comparing value or text of link in footer at index 4</name>
+			<title>Comparing value or text of link in footer at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cb84da09-7f47-42b7-9d57-d22a8fff6255-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413190955" stop="1489413191655" status="passed">
+			<name>Comparing href values of links in header at index 4</name>
+			<title>Comparing href values of links in header at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1f59e81d-9da4-4bc9-bf15-cbacdd8ad860-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413191655" stop="1489413192476" status="passed">
+			<name>Clicking link in header at idx 4</name>
+			<title>Clicking link in header at idx 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1f7157fb-5fbb-41dc-9e2b-b8ff9623d6f0-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413192476" stop="1489413194171" status="passed">
+			<name>Shifting windows and validating them of link at index 4</name>
+			<title>Shifting windows and validating them of link at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="857bbed3-9dfd-4b8e-a600-440773b1de8c-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413194171" stop="1489413194868" status="passed">
+			<name>Comparing value or text of link in footer at index 5</name>
+			<title>Comparing value or text of link in footer at index 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="76893416-8eda-4175-b69f-36b336c0b3ad-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413194868" stop="1489413195566" status="passed">
+			<name>Comparing href values of links in header at index 5</name>
+			<title>Comparing href values of links in header at index 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8dd97b8f-b3dd-4b30-a45b-861074058140-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413195566" stop="1489413196385" status="passed">
+			<name>Clicking link in header at idx 5</name>
+			<title>Clicking link in header at idx 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2b6d6573-df9f-48eb-9cb2-41daddb57d93-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489413196385" stop="1489413198235" status="passed">
+			<name>Shifting windows and validating them of link at index 5</name>
+			<title>Shifting windows and validating them of link at index 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d3222af8-afd8-41dc-9825-41231f65b1e0-attachment.png" type="image/png" size="804004"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488880966357" stop="1488880989483">
+	<name>Validating Links in Footer</name>
+	<title>Validating Links in Footer</title>
+	<test-cases>
+		<test-case start="1488880966358" stop="1488880976749" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b5efcaaf-ce03-428f-a586-d85f6fc530bc-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488880976750" stop="1488880977357" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f138818c-223c-4e92-a527-c604a7a0ae89-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488880977357" stop="1488880989483" status="failed">
+			<name>Validating each Footer link</name>
+			<title>Validating each Footer link</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1c9e1568-cf2c-4a6e-a7ec-35159926f1d2-attachment.png" type="image/png" size="200511"/>
+			</attachments>
+			<failure>
+				<message>Failed: Index out of bound. Trying to access element at index: 2, but there are only 0 elements that match locator By(css selector, section[data-widget=&apos;footer&apos;] footer ul:not([class=&apos;social-links&apos;]) li a)</message>
+				<stack-trace>NoSuchElementError: Index out of bound. Trying to access element at index: 2, but there are only 0 elements that match locator By(css selector, section[data-widget=&apos;footer&apos;] footer ul:not([class=&apos;social-links&apos;]) li a)
+    at WebDriverError (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:27:5)
+    at NoSuchElementError (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:168:5)
+    at selenium_webdriver_1.promise.all.then (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:284:17)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:463:23)
+    at ElementArrayFinder.(anonymous function) [as getText] (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:95:21)
+    at ElementFinder.(anonymous function) [as getText] (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:841:14)
+    at E:\protractorcms\cyborg\features\FT\FT-002\FT-002.js:25:48
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run it(&quot;Validating each Footer link&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\FT\FT-002\FT-002.js:20:5)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\FT\FT-002\FT-002.js:13:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

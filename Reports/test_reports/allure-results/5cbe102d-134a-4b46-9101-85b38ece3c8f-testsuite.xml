@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489130535396" stop="1489130567971">
+	<name>TA-005 TypeAhead-Keyword Suggestions Validation</name>
+	<title>TA-005 TypeAhead-Keyword Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1489130535397" stop="1489130546088" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="08affe6d-9904-4ffa-b8d1-906df407db5c-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130546089" stop="1489130546365" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9bf5d999-235e-42ff-8d24-76596a6695f3-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130546365" stop="1489130548029" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0c9d2d91-cdec-45e9-8c6f-72d97518eba2-attachment.png" type="image/png" size="297818"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130548029" stop="1489130548386" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="dc29f85a-f0b8-4590-83da-18f7d932214d-attachment.png" type="image/png" size="297792"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130548386" stop="1489130549730" status="passed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e2a57ad0-d3e2-4f10-8c7d-3e8e75538e1e-attachment.png" type="image/png" size="312512"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130549730" stop="1489130552043" status="failed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead resume</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="27c412f2-a745-4b22-9040-95351e54f53b-attachment.png" type="image/png" size="312512"/>
+			</attachments>
+			<failure>
+				<message>Expected true to be falsy &apos;Suggested List is Empty for entered Keyword:resume&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\TA\common\ta_common.js:68:34
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489130552043" stop="1489130553635" status="passed">
+			<name>Entering  keyword attorney</name>
+			<title>Entering  keyword attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="45250e7a-f657-4e00-ac76-30c946382d48-attachment.png" type="image/png" size="312832"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130553635" stop="1489130555894" status="failed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead attorney</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1b80f472-6492-43d9-abb0-ae66fbb4b4f1-attachment.png" type="image/png" size="312866"/>
+			</attachments>
+			<failure>
+				<message>Expected true to be falsy &apos;Suggested List is Empty for entered Keyword:attorney&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\TA\common\ta_common.js:68:34
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489130555894" stop="1489130557428" status="passed">
+			<name>Entering  keyword manager</name>
+			<title>Entering  keyword manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b9b3a9a8-d857-4df9-b4f7-bcdc6f635cf0-attachment.png" type="image/png" size="295827"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130557429" stop="1489130557812" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead manager</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="078725ff-1529-47d2-bf9b-f04b1137780c-attachment.png" type="image/png" size="295805"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130557812" stop="1489130559214" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d83cb6af-c826-4a32-9613-65c1dec1f19a-attachment.png" type="image/png" size="297818"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130559214" stop="1489130559458" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="647b79da-3c34-4c03-ab0b-179258150955-attachment.png" type="image/png" size="297818"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130559458" stop="1489130560792" status="passed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2be47498-d63d-4331-8ad9-91a935053d19-attachment.png" type="image/png" size="312512"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130560792" stop="1489130563043" status="failed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead resume</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6bd310b6-8d21-4c4f-92a4-b2d3a1ae4ebd-attachment.png" type="image/png" size="312539"/>
+			</attachments>
+			<failure>
+				<message>Expected true to be falsy &apos;Suggested List is Empty for entered Keyword:resume&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at E:\protractorcms\cyborg\features\TA\common\ta_common.js:68:34
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489130563043" stop="1489130564562" status="passed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="57087e82-44a9-4e02-ac02-3713c6294975-attachment.png" type="image/png" size="299152"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130564563" stop="1489130564863" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead sales</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a5ab4b40-67c0-414e-a13f-be5789cec9c0-attachment.png" type="image/png" size="299124"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130564863" stop="1489130566180" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cee55e3b-4bf3-4732-b622-5643ac1d1449-attachment.png" type="image/png" size="297818"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130566180" stop="1489130566419" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b9b566b0-29d8-43c7-95ed-fd5080e7323a-attachment.png" type="image/png" size="297792"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130566419" stop="1489130567729" status="passed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="002400a5-2bd8-4725-90f2-e7b91433d006-attachment.png" type="image/png" size="299152"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489130567729" stop="1489130567970" status="passed">
+			<name>Getting  all KEYWORD suggestions from TypeAhead sales</name>
+			<title>Getting  all KEYWORD suggestions from TypeAhead sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1e93b6a0-a85a-4db3-b1d9-c3f142cd2a92-attachment.png" type="image/png" size="299124"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

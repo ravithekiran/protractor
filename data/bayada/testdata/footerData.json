@@ -1,0 +1,50 @@
+{
+  "footer_links_data":[
+    {
+      "label": "Jobs",
+      "url": "https://apex-qa.phenompro.com/"
+    },
+    {
+      "label": "Benefits",
+      "url": "http://www.apexlifesciences.com/benefits"
+    },
+    {
+      "label": "About",
+      "url": "http://www.apexlifesciences.com/about"
+    },
+    {
+      "label": "Services",
+      "url": "http://www.apexlifesciences.com/services"
+    },
+    {
+      "label": "Industries",
+      "url": "http://www.apexlifesciences.com/industries"
+    },
+    {
+      "label": "Contact",
+      "url": "http://www.apexlifesciences.com/contact"
+    },
+    {
+      "label": "Legal Notice",
+      "url": "https://www.apexlifesciences.com/legal-notice"
+    },
+    {
+      "label": "Privacy Policy",
+      "url": "https://www.apexlifesciences.com/privacy-policy"
+    }
+  ],
+  "copyright_data":"fkjgfjg",
+  "disclaimer-data":"",
+  "social_sharing_data":[
+    {
+      "url": "https://www.facebook.com/ApexLifeSciences"
+    },
+    {
+      "url": "https://www.linkedin.com/company/lab-support-a-division-of-on-assignment"
+    },
+    {
+      "url": "https://twitter.com/apxlifesciences"
+    }
+
+  ]
+}

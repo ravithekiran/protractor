@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488462482676" stop="1488462524884">
+	<name>TA-003 TypeAhead-Recent Search Suggestions Validation</name>
+	<title>TA-003 TypeAhead-Recent Search Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1488462482677" stop="1488462491958" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f5ff154b-a689-44c0-86d0-b48170082209-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462491959" stop="1488462492188" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c3328d65-a854-43dc-9c52-1d9b10c6a7f3-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462492188" stop="1488462493798" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d6ddbde6-32f3-4e78-ad24-ccad669cfb93-attachment.png" type="image/png" size="295344"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462493798" stop="1488462496026" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="09889f3d-9ae8-49f7-be4b-72315df6893a-attachment.png" type="image/png" size="295344"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462496026" stop="1488462498551" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="da9b3661-8e4b-40bc-a339-145ef8925d71-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462498551" stop="1488462498708" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1030c050-9fa6-4855-9a77-8ca4480cc725-attachment.png" type="image/png" size="69467"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462498708" stop="1488462500579" status="passed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cbf9446a-b186-4c26-964c-135ca69eadf9-attachment.png" type="image/png" size="139003"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462500579" stop="1488462500792" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="22abc3e1-bc06-4741-967f-031c2de8c456-attachment.png" type="image/png" size="138982"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462500792" stop="1488462501672" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e4f2875a-7cc2-4015-9234-2f5b5b960a3f-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462501672" stop="1488462501849" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1258674f-0185-4c53-be14-0ed86f02652e-attachment.png" type="image/png" size="69499"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462501849" stop="1488462503625" status="passed">
+			<name>Entering  keyword attorney</name>
+			<title>Entering  keyword attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0bc70c61-3b5c-4205-a615-77da734a3e1b-attachment.png" type="image/png" size="136679"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462503625" stop="1488462503870" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="60a501e8-72c9-4beb-a703-52d215a5e1ef-attachment.png" type="image/png" size="136651"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462503871" stop="1488462505055" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b0b4dbeb-5939-4cdb-beb7-f3f7a0b9aac8-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462505055" stop="1488462505322" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d81293d3-85ec-4216-b530-db98f9267dcb-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462505322" stop="1488462506759" status="passed">
+			<name>Entering  keyword manager</name>
+			<title>Entering  keyword manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="890b012c-e20e-49ba-914f-b0fe2cf4a2ee-attachment.png" type="image/png" size="78402"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462506759" stop="1488462507008" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="22d7b89d-2e1b-41b1-90e0-64fcdb224619-attachment.png" type="image/png" size="78464"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462507008" stop="1488462507806" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="de6a8f26-98a9-49ee-90bb-b05326f7fa73-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462507806" stop="1488462508058" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="74a181b2-6983-454e-ac6a-ca96dc2cbae8-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462508058" stop="1488462509903" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2bdf1754-2eb4-45b8-a638-4f9791a9bd2c-attachment.png" type="image/png" size="148088"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462509903" stop="1488462510195" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2b7390a4-26db-47c8-95d7-5d6efeee6f2f-attachment.png" type="image/png" size="148050"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462510195" stop="1488462511419" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4190cc90-1560-4e68-a649-b7555bb974ee-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462511419" stop="1488462511584" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="347120c3-5fb3-4e44-b3e0-c72bea5ed082-attachment.png" type="image/png" size="67836"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462511584" stop="1488462513330" status="passed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="954ca1ed-7ce4-498f-baa0-0b4917826ec4-attachment.png" type="image/png" size="137538"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462513331" stop="1488462513618" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6684d249-8fa7-48d4-bf62-4a5d8422a262-attachment.png" type="image/png" size="137515"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462513618" stop="1488462514551" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="078ae73b-b587-4cce-9b59-672a68cb2900-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462514551" stop="1488462514720" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ca3ac9e9-6830-4614-a20b-c960122cc30c-attachment.png" type="image/png" size="67836"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462514720" stop="1488462516471" status="passed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="39efd0c9-355d-403b-abf5-e2cae660c196-attachment.png" type="image/png" size="148605"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462516472" stop="1488462516752" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="44ddaceb-e390-414d-b2ea-8c942833a8cd-attachment.png" type="image/png" size="148582"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462516752" stop="1488462518040" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="94584ed5-64ee-44bb-97ad-d2bf19e12217-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462518040" stop="1488462518215" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f1b9728d-e010-4dfa-8d9e-55887d80cea1-attachment.png" type="image/png" size="69499"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462518215" stop="1488462519919" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e5a81cf8-02bf-4f09-88e4-94dafa4f155d-attachment.png" type="image/png" size="152748"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462519919" stop="1488462520239" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="bc341520-df09-45b2-95c0-aea73eb76835-attachment.png" type="image/png" size="152721"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462520239" stop="1488462521176" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1cd63b5f-890c-46e2-9ba7-5aee79ff8d76-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462521176" stop="1488462521363" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8c1e44e6-f9a1-4bd0-81c1-3cbf0789ae33-attachment.png" type="image/png" size="69499"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462521363" stop="1488462523122" status="passed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="44b4ab70-6791-4c34-96dd-108aad0a1a76-attachment.png" type="image/png" size="151014"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462523122" stop="1488462523438" status="passed">
+			<name>Getting  all Recent suggestions from TypeAhead and validating</name>
+			<title>Getting  all Recent suggestions from TypeAhead and validating</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e375abff-fda1-4df7-b50d-0101b5187ae4-attachment.png" type="image/png" size="150992"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462523438" stop="1488462524718" status="passed">
+			<name>Pressing ENTER Key</name>
+			<title>Pressing ENTER Key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f51996b5-050d-4974-971a-8188e600ea3a-attachment.png" type="image/png" size="122284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488462524718" stop="1488462524883" status="passed">
+			<name>Constructing recent searches data Manually</name>
+			<title>Constructing recent searches data Manually</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="551a908d-275b-45cd-8b6c-31a5ffdd5c59-attachment.png" type="image/png" size="69512"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

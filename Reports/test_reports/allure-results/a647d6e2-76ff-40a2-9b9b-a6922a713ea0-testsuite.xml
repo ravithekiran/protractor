@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488890761995" stop="1488890772082">
+	<name>Events Validation</name>
+	<title>Events Validation</title>
+	<test-cases>
+		<test-case start="1488890761997" stop="1488890770459" status="passed">
+			<name>Launch Home Page </name>
+			<title>Launch Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c70d15ad-48dd-4db6-a75d-d13054e9d97b-attachment.png" type="image/png" size="585311"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488890770460" stop="1488890771313" status="passed">
+			<name>async</name>
+			<title>async</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="022e054c-1786-4351-87fe-b88f75b3123d-attachment.png" type="image/png" size="594804"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488890771313" stop="1488890772081" status="passed">
+			<name>hjcvjf</name>
+			<title>hjcvjf</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5976d817-96e9-4c2c-be0e-52b0702b50f8-attachment.png" type="image/png" size="595209"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

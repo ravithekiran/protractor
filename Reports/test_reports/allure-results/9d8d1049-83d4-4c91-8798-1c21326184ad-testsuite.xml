@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489126948662" stop="1489126958255">
+	<name>TA-005 TypeAhead-Keyword Suggestions Validation</name>
+	<title>TA-005 TypeAhead-Keyword Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1489126948663" stop="1489126957810" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="837aca82-9749-405c-b737-2cdae72b4ce5-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489126957810" stop="1489126958041" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2911399d-f0c5-48e0-966f-3c6efc6d4d9e-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489126958042" stop="1489126958255" status="failed">
+			<name>encountered a declaration exception</name>
+			<title>encountered a declaration exception</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="81c9524a-53b3-4b6c-9f64-9b89e64d2968-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+			<failure>
+				<message>TypeError: ta_common.keywordTypeAhead is not a function</message>
+				<stack-trace>TypeError: ta_common.keywordTypeAhead is not a function
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:13:15)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\TA\TA-005\TA-005.js:10:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

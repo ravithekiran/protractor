@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488881357143" stop="1488881371348">
+	<name>Validating Links in Footer</name>
+	<title>Validating Links in Footer</title>
+	<test-cases>
+		<test-case start="1488881357144" stop="1488881370731" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6f71c855-49ce-4826-8d4b-9d08968fb869-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488881370732" stop="1488881370949" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="155d4593-f417-4181-99ae-be17c37fd1db-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488881370949" stop="1488881371348" status="failed">
+			<name>Validating each Footer link</name>
+			<title>Validating each Footer link</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ee0b6072-e6ba-4da4-acd1-d1b47960c71a-attachment.png" type="image/png" size="90064"/>
+			</attachments>
+			<failure>
+				<message>Failed: Given element By(css selector, section[data-widget=&apos;footer&apos;] footer ul:not([class=&apos;social-links&apos;]) li a) not displayed and the error was NoSuchElementError: Index out of bound. Trying to access element at index: 8, but there are only 8 elements that match locator By(css selector, section[data-widget=&apos;footer&apos;] footer ul:not([class=&apos;social-links&apos;]) li a)</message>
+				<stack-trace>Error: Failed: Given element By(css selector, section[data-widget=&apos;footer&apos;] footer ul:not([class=&apos;social-links&apos;]) li a) not displayed and the error was NoSuchElementError: Index out of bound. Trying to access element at index: 8, but there are only 8 elements that match locator By(css selector, section[data-widget=&apos;footer&apos;] footer ul:not([class=&apos;social-links&apos;]) li a)
+    at stack (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1577:17)
+    at buildExpectationResult (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1547:14)
+    at Spec.expectationResultFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:638:18)
+    at Spec.addExpectationResult (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:330:34)
+    at Env.fail (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:987:25)
+    at Function.next.fail (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1903:19)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:61:7
+    at ControlFlow.emit (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2565:10)
+    at shutdownTask_.MicroTask (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2490:53)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

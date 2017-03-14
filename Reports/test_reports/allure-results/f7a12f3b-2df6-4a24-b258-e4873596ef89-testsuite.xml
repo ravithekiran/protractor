@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488978848256" stop="1488978876214">
+	<name>Validating Links in Footer</name>
+	<title>Validating Links in Footer</title>
+	<test-cases>
+		<test-case start="1488978848257" stop="1488978870377" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="305beb2c-2e49-4034-b854-ea32b2cc52ca-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978870378" stop="1488978870612" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2edff841-a790-457b-afb3-89537d11d7bc-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978870612" stop="1488978870885" status="passed">
+			<name>Comparing href values of social sharing link in footer at index 0</name>
+			<title>Comparing href values of social sharing link in footer at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="559b4fad-89d5-4eee-9775-94da1e32d91d-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978870885" stop="1488978871248" status="passed">
+			<name>Clicking social sharing link in footer at idx 0</name>
+			<title>Clicking social sharing link in footer at idx 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="27c02f6c-bc94-4f69-91db-66e680ce14c9-attachment.png" type="image/png" size="57726"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978871248" stop="1488978872445" status="failed">
+			<name>Shifting windows and validating them of link at index 0</name>
+			<title>Shifting windows and validating them of link at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9b66b198-0196-4848-a69c-05580f008bf2-attachment.png" type="image/png" size="47522"/>
+			</attachments>
+			<failure>
+				<message>Expected 2 to equal 1, &apos;Link should open in a same window but it opened in new window&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at UserActions.shiftingBrowserWindowTabs (E:\protractorcms\cyborg\utility\user_actions.js:142:39)
+    at E:\protractorcms\cyborg\features\FT\common\ft_common.js:36:29
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488978872445" stop="1488978872771" status="passed">
+			<name>Comparing href values of social sharing link in footer at index 1</name>
+			<title>Comparing href values of social sharing link in footer at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a334d78e-b354-4f7a-bc95-172f2fcab878-attachment.png" type="image/png" size="47522"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978872771" stop="1488978873102" status="passed">
+			<name>Clicking social sharing link in footer at idx 1</name>
+			<title>Clicking social sharing link in footer at idx 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0ddc0b0d-b55d-4069-a597-1851b4b99c50-attachment.png" type="image/png" size="47514"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978873102" stop="1488978874277" status="failed">
+			<name>Shifting windows and validating them of link at index 1</name>
+			<title>Shifting windows and validating them of link at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ba64da4d-5857-4fbd-9f56-21404c4d02e5-attachment.png" type="image/png" size="47514"/>
+			</attachments>
+			<failure>
+				<message>Expected 2 to equal 1, &apos;Link should open in a same window but it opened in new window&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at UserActions.shiftingBrowserWindowTabs (E:\protractorcms\cyborg\utility\user_actions.js:142:39)
+    at E:\protractorcms\cyborg\features\FT\common\ft_common.js:36:29
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1488978874277" stop="1488978874582" status="passed">
+			<name>Comparing href values of social sharing link in footer at index 2</name>
+			<title>Comparing href values of social sharing link in footer at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="35052f13-e72b-48a3-8fb4-1df06d3e90c9-attachment.png" type="image/png" size="47514"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978874582" stop="1488978874989" status="passed">
+			<name>Clicking social sharing link in footer at idx 2</name>
+			<title>Clicking social sharing link in footer at idx 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d8629002-2287-4a88-b864-872094efc017-attachment.png" type="image/png" size="47332"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488978874989" stop="1488978876214" status="failed">
+			<name>Shifting windows and validating them of link at index 2</name>
+			<title>Shifting windows and validating them of link at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b6bc843c-0789-43d4-8b8c-6c871de5bef4-attachment.png" type="image/png" size="47518"/>
+			</attachments>
+			<failure>
+				<message>Expected 2 to equal 1, &apos;Link should open in a same window but it opened in new window&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at UserActions.shiftingBrowserWindowTabs (E:\protractorcms\cyborg\utility\user_actions.js:142:39)
+    at E:\protractorcms\cyborg\features\FT\common\ft_common.js:36:29
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

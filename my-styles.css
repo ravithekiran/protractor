@@ -1,0 +1,12 @@
+h1{font-family: serif;text-align: center;background: #00a9b7;color: white;}
+div#summary>h4{font-family: serif;text-align: center;background: #00a9b7;color: white;}
+ul h4{font-family: serif;text-align: center;color: #00a9b7;}
+ul li[data-name]{font-family: serif;color: black;}
+body { font-family: serif;  margin: 0;}
+ul { list-style-position: inside; }
+body>a{font-family: serif;text-align: center;;color: #00a9b7;}
+span.passed { padding: 0 ; color: green; }
+span.failed { padding: 0 ; color: red; }
+span.pending { padding: 0 ; color: orange; }
+span.stacktrace { white-space: pre; border: 1px solid rgb(0, 0, 0); font-size: 11pt;
+    padding: 4px; background-color: rgb(204, 204, 204); }

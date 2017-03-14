@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488444477414" stop="1488444490133">
+	<name>TA-006 TypeAhead-Location Suggestions Validation123</name>
+	<title>TA-006 TypeAhead-Location Suggestions Validation123</title>
+	<test-cases>
+		<test-case start="1488444477414" stop="1488444485350" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4f4dea79-44a0-4937-aae8-e2b90a15fe05-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488444485351" stop="1488444485790" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0e0a56e6-3e6c-436a-93d5-e93068900eff-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488444485790" stop="1488444487413" status="passed">
+			<name>Entering  keyword New</name>
+			<title>Entering  keyword New</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3c886798-af6a-4077-8538-48293aa457c1-attachment.png" type="image/png" size="299080"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488444487413" stop="1488444488786" status="passed">
+			<name>Entering  keyword Ha</name>
+			<title>Entering  keyword Ha</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c6384ad5-3d30-4db1-a8a7-315d65252ea1-attachment.png" type="image/png" size="289510"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488444488786" stop="1488444490132" status="passed">
+			<name>Entering  keyword s</name>
+			<title>Entering  keyword s</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7cb62995-383a-479c-894c-94b43f448c46-attachment.png" type="image/png" size="286965"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

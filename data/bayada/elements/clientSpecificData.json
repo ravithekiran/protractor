@@ -1,0 +1,10 @@
+{
+  "_Comments":"//same //new //",
+  "footer_links_window":"same",
+  "footer_sharing_links_window":"new",
+  "qa_url":"https://apex-qa.phenompro.com/",
+  "stage_url":"",
+  "prod_url":"https://jobs.apexlifesciences.com/",
+  "footer_links":"css@section[data-widget='footer'] footer ul:not([class='social-links']) li a",
+  "sharing_footer":"css@section[data-widget='footer'] footer ul[class='social-links'] li a"
+}

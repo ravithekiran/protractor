@@ -1,0 +1,29 @@
+[2017-03-13 19:22:25.508] [INFO] homePage - *****Started Links validation in Header test case-HEA-001*****
+[2017-03-13 19:22:26.629] [INFO] homePage - Loading Page:http://blackrock.dev.phenompro.com/
+[2017-03-13 19:22:49.735] [INFO] homePage - Matching Equal Promise Expected[http://blackrock.dev.phenompro.com/] and Actual[http://blackrock.dev.phenompro.com/] page URLs
+[2017-03-13 19:22:50.454] [INFO] homePage - Matching Equal Promise Expected[6] and Actual[6] header links count.
+[2017-03-13 19:22:51.178] [INFO] homePage - Matching Equal Promise Expected[People & Cuture] and Actual[People & Cuture] linkTexts in Header
+[2017-03-13 19:22:51.910] [INFO] homePage - Matching Equal Promise Expected[https://www.blackrock.com/corporate/en-in/careers/our-people] and Actual[https://www.blackrock.com/corporate/en-in/careers/our-people] href values of link in header
+[2017-03-13 19:22:52.732] [INFO] homePage - Clicked on the WebElement
+[2017-03-13 19:22:53.534] [INFO] homePage - As Expected, Link Opened in other/new window
+[2017-03-13 19:22:55.317] [INFO] homePage - Matching Equal Promise Expected[Rewards & Benefits] and Actual[Rewards & Benefits] linkTexts in Header
+[2017-03-13 19:22:56.002] [INFO] homePage - Matching Equal Promise Expected[https://www.blackrock.com/corporate/en-in/careers/total-rewards-and-benefits] and Actual[https://www.blackrock.com/corporate/en-in/careers/total-rewards-and-benefits] href values of link in header
+[2017-03-13 19:22:56.748] [INFO] homePage - Clicked on the WebElement
+[2017-03-13 19:22:57.596] [INFO] homePage - As Expected, Link Opened in other/new window
+[2017-03-13 19:22:59.523] [INFO] homePage - Matching Equal Promise Expected[Business Areas] and Actual[Business Areas] linkTexts in Header
+[2017-03-13 19:23:00.207] [INFO] homePage - Matching Equal Promise Expected[https://www.blackrock.com/corporate/en-in/careers/business-groups] and Actual[https://www.blackrock.com/corporate/en-in/careers/business-groups] href values of link in header
+[2017-03-13 19:23:00.920] [INFO] homePage - Clicked on the WebElement
+[2017-03-13 19:23:01.688] [INFO] homePage - As Expected, Link Opened in other/new window
+[2017-03-13 19:23:03.417] [INFO] homePage - Matching Equal Promise Expected[BlackRock on Campus] and Actual[BlackRock on Campus] linkTexts in Header
+[2017-03-13 19:23:04.123] [ERROR] homePage - Mismatch of Equal Promise Expected[http://www.blackrockoncampus.com/] and Actual[http://blackrock.dev.phenompro.com/blackrockoncampus] href values of link in header
+[2017-03-13 19:23:06.353] [INFO] homePage - Clicked on the WebElement
+[2017-03-13 19:23:06.997] [ERROR] homePage - Link should open in different window but it got opened in same window
+[2017-03-13 19:23:07.105] [INFO] homePage - Clicked Browser back button
+[2017-03-13 19:23:10.123] [INFO] homePage - Matching Equal Promise Expected[Events] and Actual[Events] linkTexts in Header
+[2017-03-13 19:23:10.974] [INFO] homePage - Matching Equal Promise Expected[https://blackrock.tal.net/vx/candidate/jobboard/vacancy/2/adv] and Actual[https://blackrock.tal.net/vx/candidate/jobboard/vacancy/2/adv] href values of link in header
+[2017-03-13 19:23:11.703] [INFO] homePage - Clicked on the WebElement
+[2017-03-13 19:23:12.480] [INFO] homePage - As Expected, Link Opened in other/new window
+[2017-03-13 19:23:14.192] [INFO] homePage - Matching Equal Promise Expected[Inclusion & Diversity] and Actual[Inclusion & Diversity] linkTexts in Header
+[2017-03-13 19:23:14.895] [INFO] homePage - Matching Equal Promise Expected[https://www.blackrock.com/corporate/en-us/careers/diversity-and-inclusion] and Actual[https://www.blackrock.com/corporate/en-us/careers/diversity-and-inclusion] href values of link in header
+[2017-03-13 19:23:15.605] [INFO] homePage - Clicked on the WebElement
+[2017-03-13 19:23:16.390] [INFO] homePage - As Expected, Link Opened in other/new window

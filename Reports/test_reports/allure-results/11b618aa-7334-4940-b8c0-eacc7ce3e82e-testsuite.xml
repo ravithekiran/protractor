@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1488447802564" stop="1488447847096">
+	<name>TA-005 TypeAhead-Location Suggestions Validation</name>
+	<title>TA-005 TypeAhead-Location Suggestions Validation</title>
+	<test-cases>
+		<test-case start="1488447802565" stop="1488447813909" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4e6919d3-031c-44e7-ae35-888b9e9ee5a5-attachment.png" type="image/png" size="322367"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447813910" stop="1488447814309" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="128d23ea-b37f-4604-94a5-10cc61959c7a-attachment.png" type="image/png" size="314307"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447814310" stop="1488447815936" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cd602a52-bf85-41c8-8840-b372f89f1947-attachment.png" type="image/png" size="295344"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447815936" stop="1488447818210" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2c64f3b2-f0b0-4dd7-a584-63e34e1a82e1-attachment.png" type="image/png" size="295323"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447818210" stop="1488447819569" status="passed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="af3b073a-736a-450a-94dc-00e6cbbb3741-attachment.png" type="image/png" size="312512"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447819569" stop="1488447821836" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead resume</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="62fe429e-ff17-496e-93a7-b12929554956-attachment.png" type="image/png" size="312512"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447821837" stop="1488447823218" status="passed">
+			<name>Entering  keyword attorney</name>
+			<title>Entering  keyword attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="67c54834-8507-4a63-a31e-0be02dcf8e97-attachment.png" type="image/png" size="312832"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447823218" stop="1488447825484" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead attorney</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead attorney</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4c6b31ff-0857-4e64-8be0-c551332cf23a-attachment.png" type="image/png" size="312866"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447825484" stop="1488447826819" status="passed">
+			<name>Entering  keyword manager</name>
+			<title>Entering  keyword manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7b2dda25-76c8-4d1c-8a51-89679e46ef4b-attachment.png" type="image/png" size="295693"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447826819" stop="1488447829021" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead manager</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead manager</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d026c725-9a1b-4a62-8e3e-91aa51e13f48-attachment.png" type="image/png" size="295664"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447829022" stop="1488447830361" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f9c5ad2e-b131-4db9-b629-e9ef235e7268-attachment.png" type="image/png" size="295344"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447830361" stop="1488447832567" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0d3d6b65-60e6-4c3c-954d-f08db4fc634e-attachment.png" type="image/png" size="295323"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447832567" stop="1488447833918" status="passed">
+			<name>Entering  keyword resume</name>
+			<title>Entering  keyword resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3856f735-5e2e-4b2b-b7e8-ad8197b9663b-attachment.png" type="image/png" size="312512"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447833918" stop="1488447836140" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead resume</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead resume</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d0f002eb-1b88-4bb9-9073-a316e62ded1f-attachment.png" type="image/png" size="312512"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447836140" stop="1488447837488" status="passed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4394909c-5b4d-4afc-a6ea-1ee023d4c5b3-attachment.png" type="image/png" size="297080"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447837488" stop="1488447839754" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead sales</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="95535bf6-7fc9-422f-a4f1-8c99da6f7b76-attachment.png" type="image/png" size="297076"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447839754" stop="1488447841106" status="passed">
+			<name>Entering  keyword document</name>
+			<title>Entering  keyword document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4de7a93f-4390-43cb-934b-8ad4d34578c9-attachment.png" type="image/png" size="295344"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447841106" stop="1488447843380" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead document</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead document</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="73e12bcb-e011-4802-9f14-6821663f4bef-attachment.png" type="image/png" size="295323"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447843380" stop="1488447844797" status="passed">
+			<name>Entering  keyword sales</name>
+			<title>Entering  keyword sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e994b822-09f3-4208-a6c4-0f0060355c41-attachment.png" type="image/png" size="297054"/>
+			</attachments>
+		</test-case>
+		<test-case start="1488447844797" stop="1488447847096" status="passed">
+			<name>Getting  all KEYWORDsuggestions from TypeAhead sales</name>
+			<title>Getting  all KEYWORDsuggestions from TypeAhead sales</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="958cf1c7-fa23-4fcb-bd82-29a79efdaf8b-attachment.png" type="image/png" size="297054"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

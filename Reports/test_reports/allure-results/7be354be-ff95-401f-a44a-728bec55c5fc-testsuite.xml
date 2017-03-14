@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1489411748178" stop="1489411795091">
+	<name>Validating links in header</name>
+	<title>Validating links in header</title>
+	<test-cases>
+		<test-case start="1489411748179" stop="1489411758506" status="passed">
+			<name>Loading Home Page </name>
+			<title>Loading Home Page </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="bae433f8-42ec-447e-8af9-3ce06157cbc2-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411758506" stop="1489411759228" status="passed">
+			<name>Validate Correct page Loaded</name>
+			<title>Validate Correct page Loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c8175e9f-8f95-4180-bf11-2e3380778a99-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411759228" stop="1489411759936" status="failed">
+			<name>comparing TestData and Site header Links Count</name>
+			<title>comparing TestData and Site header Links Count</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3d40bfcf-c64a-47a4-b7cf-96f34dd46f43-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected 6 to equal 7, &apos;Mismatch of header links count.&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:37:44)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411759936" stop="1489411761310" status="passed">
+			<name>Comparing value or text of link in footer at index 0</name>
+			<title>Comparing value or text of link in footer at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e8a8ac69-385c-474a-b9b3-366ed0833578-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411761310" stop="1489411762024" status="passed">
+			<name>Comparing href values of links in header at index 0</name>
+			<title>Comparing href values of links in header at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b841c523-80e7-4393-832a-d43590ecc5bc-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411762024" stop="1489411762842" status="passed">
+			<name>Clicking link in header at idx 0</name>
+			<title>Clicking link in header at idx 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0f71e58f-6fd7-4f05-9e6e-c5a670e29567-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411762842" stop="1489411764519" status="passed">
+			<name>Shifting windows and validating them of link at index 0</name>
+			<title>Shifting windows and validating them of link at index 0</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0bcf14d0-0e22-4b54-88dc-179f4644a88c-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411764519" stop="1489411765228" status="passed">
+			<name>Comparing value or text of link in footer at index 1</name>
+			<title>Comparing value or text of link in footer at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="99d05a16-c8db-42c4-b401-810c9b807198-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411765228" stop="1489411765912" status="passed">
+			<name>Comparing href values of links in header at index 1</name>
+			<title>Comparing href values of links in header at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="27408775-140a-4a69-9791-6486b8355082-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411765912" stop="1489411766742" status="passed">
+			<name>Clicking link in header at idx 1</name>
+			<title>Clicking link in header at idx 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e7f1338d-d18f-434a-8969-6d86a3d2d29c-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411766742" stop="1489411768667" status="passed">
+			<name>Shifting windows and validating them of link at index 1</name>
+			<title>Shifting windows and validating them of link at index 1</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="18624d18-9d83-4c07-a1b6-bed3e675cab0-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411768668" stop="1489411769375" status="passed">
+			<name>Comparing value or text of link in footer at index 2</name>
+			<title>Comparing value or text of link in footer at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="58011b98-7e22-4af4-9c34-f10978b981a9-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411769375" stop="1489411770072" status="passed">
+			<name>Comparing href values of links in header at index 2</name>
+			<title>Comparing href values of links in header at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6afbdd21-5711-45ce-8994-f233ac9ac55b-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411770072" stop="1489411770855" status="passed">
+			<name>Clicking link in header at idx 2</name>
+			<title>Clicking link in header at idx 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ff3258e6-9836-4fe3-9afc-11ae41ca3a09-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411770856" stop="1489411772534" status="passed">
+			<name>Shifting windows and validating them of link at index 2</name>
+			<title>Shifting windows and validating them of link at index 2</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e5e9f234-a01d-482b-98ae-57a767b5e807-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411772534" stop="1489411773248" status="failed">
+			<name>Comparing value or text of link in footer at index 3</name>
+			<title>Comparing value or text of link in footer at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5801e225-daf5-43b9-8631-5d31bdcac2b4-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;&apos; to equal &apos;BlackRock on Campus&apos;, &apos;Mismatch of linkTexts in Header&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:50:30)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411773248" stop="1489411774593" status="failed">
+			<name>Comparing href values of links in header at index 3</name>
+			<title>Comparing href values of links in header at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="15f87c9c-26b8-473d-ad03-fd7f55dd1de6-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;http://blackrock.dev.phenompro.com/blackrockoncampus&apos; to equal &apos;http://www.blackrockoncampus.com/&apos;, &apos;Mismatch of href values of link in header&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:18:31)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411774594" stop="1489411776564" status="passed">
+			<name>Clicking link in header at idx 3</name>
+			<title>Clicking link in header at idx 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7dfa1eb4-bf3c-4dd7-a939-51c9c215b60a-attachment.png" type="image/png" size="4225"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411776564" stop="1489411778916" status="failed">
+			<name>Shifting windows and validating them of link at index 3</name>
+			<title>Shifting windows and validating them of link at index 3</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="22234ba4-7aa1-4a2a-8a17-9e72669d5d05-attachment.png" type="image/png" size="805842"/>
+			</attachments>
+			<failure>
+				<message>Expected 1 to equal 2, &apos;Link should open in a new window but it opened in same window&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at userActions.shiftingBrowserWindowTabs (E:\protractorcms\cyborg\utility\user_actions.js:86:39)
+    at E:\protractorcms\cyborg\features\header1\common\hea_common.js:27:29
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411778916" stop="1489411780297" status="failed">
+			<name>Comparing value or text of link in footer at index 4</name>
+			<title>Comparing value or text of link in footer at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="29d9b4c5-f6c7-438d-9233-b54333366bb1-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;&apos; to equal &apos;Programs&apos;, &apos;Mismatch of linkTexts in Header&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:50:30)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411780298" stop="1489411781637" status="failed">
+			<name>Comparing href values of links in header at index 4</name>
+			<title>Comparing href values of links in header at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b35c4d25-6e17-44c3-b64d-ac4a7790dcb7-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;https://blackrock.tal.net/vx/candidate/jobboard/vacancy/2/adv&apos; to equal &apos;http://www.blackrockoncampus.com/intern-graduate-program/&apos;, &apos;Mismatch of href values of link in header&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:18:31)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411781637" stop="1489411783098" status="passed">
+			<name>Clicking link in header at idx 4</name>
+			<title>Clicking link in header at idx 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cc35e9c0-8a9a-4da0-927f-ad1fbf5c0f79-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411783098" stop="1489411784811" status="passed">
+			<name>Shifting windows and validating them of link at index 4</name>
+			<title>Shifting windows and validating them of link at index 4</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="65fa9bce-552e-45f0-908c-960c58fcbbcb-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411784811" stop="1489411785542" status="failed">
+			<name>Comparing value or text of link in footer at index 5</name>
+			<title>Comparing value or text of link in footer at index 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b0874dae-4d7f-4b93-95a2-3c72ceba195e-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;Inclusion &amp; Diversity&apos; to equal &apos;Events&apos;, &apos;Mismatch of linkTexts in Header&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:50:30)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411785542" stop="1489411786913" status="failed">
+			<name>Comparing href values of links in header at index 5</name>
+			<title>Comparing href values of links in header at index 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6eb84ab7-4618-440d-a887-3c7205193800-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;https://www.blackrock.com/corporate/en-us/careers/diversity-and-inclusion&apos; to equal &apos;https://blackrock.tal.net/vx/candidate/jobboard/vacancy/2/adv&apos;, &apos;Mismatch of href values of link in header&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:18:31)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411786913" stop="1489411788443" status="passed">
+			<name>Clicking link in header at idx 5</name>
+			<title>Clicking link in header at idx 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d8c2e60a-1e71-4663-b9cc-49fefa79fca2-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411788443" stop="1489411790297" status="passed">
+			<name>Shifting windows and validating them of link at index 5</name>
+			<title>Shifting windows and validating them of link at index 5</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0935439d-a5f4-4f51-a79a-5a8ce797e58f-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+		</test-case>
+		<test-case start="1489411790297" stop="1489411790995" status="failed">
+			<name>Comparing value or text of link in footer at index 6</name>
+			<title>Comparing value or text of link in footer at index 6</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1b5c56f4-63f9-4eef-9037-a3463e7eace8-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Failed: Index out of bound. Trying to access element at index: 6, but there are only 6 elements that match locator By(css selector, ul[test-id=&apos;header_links&apos;] a)</message>
+				<stack-trace>NoSuchElementError: Index out of bound. Trying to access element at index: 6, but there are only 6 elements that match locator By(css selector, ul[test-id=&apos;header_links&apos;] a)
+    at WebDriverError (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:27:5)
+    at NoSuchElementError (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:168:5)
+    at selenium_webdriver_1.promise.all.then (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:284:17)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:463:23)
+    at ElementArrayFinder.(anonymous function) [as getText] (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:95:21)
+    at ElementFinder.(anonymous function) [as getText] (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:841:14)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:48:46)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+From: Task: Run it(&quot;Comparing value or text of link in footer at index 6&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at validatingHeaderLinkAndText (E:\protractorcms\cyborg\features\header1\common\hea_common.js:47:9)
+    at ft_common.validateHeaderLinksAndText (E:\protractorcms\cyborg\features\header1\common\hea_common.js:40:13)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\HEA-001\HEA-001.js:14:16)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\HEA-001\HEA-001.js:11:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411790995" stop="1489411792316" status="failed">
+			<name>Comparing href values of links in header at index 6</name>
+			<title>Comparing href values of links in header at index 6</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="69cc8836-556f-48bb-89dd-c31bbb21a1da-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Failed: Index out of bound. Trying to access element at index: 6, but there are only 6 elements that match locator By(css selector, ul[test-id=&apos;header_links&apos;] a)</message>
+				<stack-trace>NoSuchElementError: Index out of bound. Trying to access element at index: 6, but there are only 6 elements that match locator By(css selector, ul[test-id=&apos;header_links&apos;] a)
+    at WebDriverError (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:27:5)
+    at NoSuchElementError (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:168:5)
+    at selenium_webdriver_1.promise.all.then (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:284:17)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:463:23)
+    at ElementArrayFinder.(anonymous function) [as getAttribute] (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:95:21)
+    at ElementFinder.(anonymous function) [as getAttribute] (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:841:14)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\common\hea_common.js:16:39)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:102:25
+    at new ManagedPromise (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at controlFlowExecute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:87:18)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+From: Task: Run it(&quot;Comparing href values of links in header at index 6&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:86:14)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.queueRunnerFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+From asynchronous test: 
+Error
+    at validatingLinks (E:\protractorcms\cyborg\features\header1\common\hea_common.js:15:9)
+    at validatingHeaderLinkAndText (E:\protractorcms\cyborg\features\header1\common\hea_common.js:52:9)
+    at ft_common.validateHeaderLinksAndText (E:\protractorcms\cyborg\features\header1\common\hea_common.js:40:13)
+    at Suite.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\HEA-001\HEA-001.js:14:16)
+    at addSpecsToSuite (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at describe (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (E:\protractorcms\cyborg\features\header1\HEA-001\HEA-001.js:11:1)
+    at Module._compile (module.js:570:32)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411792316" stop="1489411793718" status="failed">
+			<name>Clicking link in header at idx 6</name>
+			<title>Clicking link in header at idx 6</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="53a512dd-dc21-4ab3-8671-b7440d310727-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Failed: Failed to javascript click on the WebElement and the exception is:NoSuchElementError: Index out of bound. Trying to access element at index: 6, but there are only 6 elements that match locator By(css selector, ul[test-id=&apos;header_links&apos;] a)</message>
+				<stack-trace>Error: Failed: Failed to javascript click on the WebElement and the exception is:NoSuchElementError: Index out of bound. Trying to access element at index: 6, but there are only 6 elements that match locator By(css selector, ul[test-id=&apos;header_links&apos;] a)
+    at stack (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1577:17)
+    at buildExpectationResult (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1547:14)
+    at Spec.expectationResultFactory (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:638:18)
+    at Spec.addExpectationResult (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:330:34)
+    at Env.fail (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:987:25)
+    at Function.next.fail (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1903:19)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:61:7
+    at ControlFlow.emit (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2565:10)
+    at shutdownTask_.MicroTask (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2490:53)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1489411793718" stop="1489411795091" status="failed">
+			<name>Shifting windows and validating them of link at index 6</name>
+			<title>Shifting windows and validating them of link at index 6</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="94f4f34c-69d2-49b2-83b9-b5e06efdfe4b-attachment.png" type="image/png" size="806197"/>
+			</attachments>
+			<failure>
+				<message>Expected 1 to equal 2, &apos;Link should open in a new window but it opened in same window&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at userActions.shiftingBrowserWindowTabs (E:\protractorcms\cyborg\utility\user_actions.js:86:39)
+    at E:\protractorcms\cyborg\features\header1\common\hea_common.js:27:29
+    at ManagedPromise.invokeCallback_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\Ravikiran\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Protractor Test Framework</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="protractor-test-framework">Protractor Test Framework</h1>
+
+<p>Hey!!!  <br>
+This is an end-to-end test framework designed with <strong>‘Protractor’</strong> for AngularJS applications. it runs tests against your application running in a real browser, interacting with it as a user would.</p>
+
+<p>This framework is designed in style that follows <a href="https://github.com/CarmenPopoviciu/protractor-styleguide">Protractor Styleguide</a></p>
+
+<p><strong>Expected Users:</strong></p>
+
+<blockquote>
+  <ul>
+  <li>This Framework doesn’t provide any information about how to install or use protractor.</li>
+  <li>This framework is intended for intermediate level users who know protractor</li>
+  </ul>
+</blockquote>
+
+<p><strong>Why &amp; When To Use This Framework:</strong> Our framework has build with below features </p>
+
+<blockquote>
+  <ul>
+  <li>Multi language support</li>
+  <li>To run automated tests on multi environment with minimal efforts</li>
+  <li>Run tests in Parallel at suite level</li>
+  <li>Reusable methods for page interactions</li>
+  <li>Html reports for parallel test with failed issues screenshots</li>
+  <li>Page Object Model of Tests</li>
+  <li>Instead of ‘…FFF’ representation in console this frame work will show Real time test details in console <a href="https://raw.githubusercontent.com/bcaudan/jasmine-spec-reporter/master/screenshot.png">Sample</a></li>
+  </ul>
+</blockquote>
+
+<hr>
+
+
+
+<h2 id="project-structure">Project Structure</h2>
+
+<hr>
+
+<dl>
+<dt><i class="icon-folder-open"></i> <strong>data</strong></dt>
+<dd>
+<p><i class="icon-folder-open"></i> <strong>app_data</strong></p>
+
+<blockquote>
+  <p><i class="icon-file"></i> application_data.US_En.js</p>
+</blockquote>
+</dd>
+
+<dd>
+<p><i class="icon-folder-open"></i> <strong>run_data</strong></p>
+
+<blockquote>
+  <p><i class="icon-file"></i> application_data.js <br>
+   <i class="icon-file"></i> user_data.js</p>
+</blockquote>
+</dd>
+
+<dd>
+<p><i class="icon-folder-open"></i> <strong>user_data</strong></p>
+
+<blockquote>
+  <p><i class="icon-file"></i> user_data.US_En.Env_Prod.js</p>
+</blockquote>
+</dd>
+</dl>
+
+<p><i class="icon-folder-open"></i>  <strong>downloads</strong></p>
+
+<dl>
+<dt><i class="icon-folder-open"></i>  <strong>features</strong></dt>
+<dd>
+<p><i class="icon-folder-open"></i> <strong>featureName1</strong></p>
+</dd>
+
+<dd>
+<ul>
+<li><i class="icon-folder-open"></i> <strong>po</strong></li>
+</ul>
+</dd>
+
+<dd>
+<blockquote>
+  <p><i class="icon-file"></i> <strong>featureName1.po.js</strong></p>
+</blockquote>
+</dd>
+
+<dd><blockquote>
+  <i class="icon-file"></i> <strong>featureName1.co.js</strong>
+</blockquote></dd>
+
+<dd>
+<ul>
+<li><i class="icon-folder-open"></i> <strong>specs</strong></li>
+</ul>
+</dd>
+
+<dd><blockquote>
+  <i class="icon-file"></i> <strong>featureName1.spec.js</strong>
+</blockquote></dd>
+
+<dd>
+<ul>
+<li><i class="icon-file"></i> <strong>featureName1.suite.js</strong></li>
+</ul>
+</dd>
+</dl>
+
+<p><i class="icon-folder-open"></i> <strong>node_modules</strong></p>
+
+<dl>
+<dt><i class="icon-folder-open"></i> <strong>test_reports</strong></dt>
+<dd>
+<p><i class="icon-folder-open"></i> <strong>html_reports</strong></p>
+</dd>
+
+<dd>
+<ul>
+<li><i class="icon-folder-open"></i> <strong>FailedTestsScreenshots</strong></li>
+</ul>
+</dd>
+
+<dd>
+<ul>
+<li><i class="icon-file"></i> <strong>Myreports.html</strong></li>
+</ul>
+</dd>
+
+<dd>
+<p><i class="icon-folder-open"></i> <strong>json_reports</strong></p>
+</dd>
+
+<dd>
+<ul>
+<li><i class="icon-folder-open"></i> <strong>Testresult.json</strong></li>
+</ul>
+</dd>
+
+<dt><i class="icon-folder-open"></i> <strong>utility</strong></dt>
+<dd>
+<p><i class="icon-folder-open"></i> <strong>utilities.js</strong></p>
+</dd>
+</dl>
+
+<p><i class="icon-file"></i> <strong>.gitignore</strong></p>
+
+<p><i class="icon-file"></i> <strong>About Protractor Test Framework.html</strong></p>
+
+<p><i class="icon-file"></i> <strong>gulpfile.js</strong></p>
+
+<p><i class="icon-file"></i> <strong>my.html.report.js</strong></p>
+
+<p><i class="icon-file"></i> <strong>my-styles.css</strong></p>
+
+<p><i class="icon-file"></i> <strong>package.json</strong></p>
+
+<p><i class="icon-file"></i> <strong>protractor.conf.js</strong></p>
+
+<p><i class="icon-file"></i> <strong>protractor.prepare.js</strong></p>
+
+<p><i class="icon-file"></i> <strong>README.md</strong></p>
+
+<p><i class="icon-file"></i> <strong>setUpGlobals.js</strong></p>
+
+<hr>
+
+<p><strong>Project Structure Explanation:</strong></p>
+
+<dl>
+<dt><em>data</em></dt>
+<dd>
+<p>app_data:</p>
+
+<blockquote>
+  <ul>
+  <li>Application data stored in files one file for one supported language</li>
+  <li>File name: application_data..js(Ex:application_data.FR_Fn.js/data/app_data/application_data.US_En.js)</li>
+  </ul>
+</blockquote>
+</dd>
+
+<dd>
+<p>user_data:</p>
+
+<blockquote>
+  <ul>
+  <li>User requited data specific to language and environments</li>
+  <li>File name:user_data.Env_.js(Ex:user_data.FR_Fn.Env_Prod.js/user_data.US_En.Env_QA.js)</li>
+  </ul>
+</blockquote>
+</dd>
+
+<dd>
+<p>run_data:</p>
+
+<blockquote>
+  <ul>
+  <li>Finally data files to be used specific to language and environment will be copied here automatically with task setUpGlobals</li>
+  </ul>
+</blockquote>
+</dd>
+</dl>
+
+<p><strong>downloads</strong></p>
+
+<blockquote>
+  <ul>
+  <li>File that are downloaded during the test run are stored here(browser download directory is configured to this point)</li>
+  </ul>
+</blockquote>
+
+<p><strong>features</strong></p>
+
+<blockquote>
+  <ul>
+  <li><p>All the application elements,methods and tests are stored here in the form of POM(Page object model)</p></li>
+  <li><p>one folder for one feature or one page (depends on application behavior)</p></li>
+  <li><p>Please refer [Rule-05: Group your e2e tests in a structure that makes sense to the structure of your project] of <a href="https://github.com/CarmenPopoviciu/protractor-styleguide">Protractor Styleguide</a></p></li>
+  </ul>
+</blockquote>
+
+<p><em>In this framework we used below organization:</em></p>
+
+<blockquote>
+  <ul>
+  <li>po</li>
+  </ul>
+</blockquote>
+
+<pre><code>    login.po.js: (actual page object file which contains locators and methods)
+</code></pre>
+
+<blockquote>
+  <ul>
+  <li>specs</li>
+  </ul>
+</blockquote>
+
+<pre><code>    login.specs.js(actual spec/test file which contains tests and assertions this file uses po file to interact with browser)
+</code></pre>
+
+<blockquote>
+  <ul>
+  <li>login.suite.js</li>
+  </ul>
+</blockquote>
+
+<pre><code>    suite which calls spec file
+</code></pre>
+
+<dl>
+<dt><strong>test_reports</strong></dt>
+<dd>html_reports:
+
+<blockquote>
+  <ul>
+  we used existing plugin(protractor-jasmine2-screenshot-reporter) to get reports Myreports.html with pass,fail and pending test details along with test duration time and test fail screenshots and test run configuration details
+  </ul>
+</blockquote></dd>
+
+<dd>
+<p>json_reports:</p>
+
+<blockquote>
+  <ul>
+  <li>Testresult.json all test result shown in json format</li>
+  </ul>
+</blockquote>
+</dd>
+</dl>
+
+<p><strong>utility/utilities.js</strong></p>
+
+<blockquote>
+  <ul>
+  <li>All utility methods like wait for element display/disappear, wait for click, isElementPresent etc are stored here for usability</li>
+  </ul>
+</blockquote>
+
+<p><strong>gulpfile.js</strong></p>
+
+<blockquote>
+  <ul>
+  <li>gulp file with task to run(currently we don’t have any gulp tasks)</li>
+  </ul>
+  
+  <p>Note1: No changes needed at end user level if you are using framework if you are changing framework please change accordingly</p>
+</blockquote>
+
+<p><strong>my.html.report.js</strong></p>
+
+<blockquote>
+  <ul>
+  <li>A file which has all configuration specific to protractor-jasmine2-screenshot-reporter</li>
+  </ul>
+  
+  <p>Refer Note1</p>
+</blockquote>
+
+<p><strong>my-styles.css</strong></p>
+
+<blockquote>
+  <ul>
+  <li>css changes to default html report protractor-jasmine2-screenshot-reporter</li>
+  </ul>
+  
+  <p>Refer Note1</p>
+</blockquote>
+
+<p><strong>package.json</strong></p>
+
+<blockquote>
+  <ul>
+  <li>file contains meta data about our project. Most importantly, it includes the list of dependencies to install from npm when running npm install.</li>
+  </ul>
+  
+  <p>Refer Note1</p>
+</blockquote>
+
+<p><strong>protractor.conf.js</strong></p>
+
+<blockquote>
+  <ul>
+  <li><p>This file shows all of the configuration options that may be passed to Protractor.</p></li>
+  <li><p>If you are familiar with protractor I have nothing to say about this file if not please refer <br>
+  <a href="https://github.com/angular/protractor/blob/master/docs/referenceConf.js">https://github.com/angular/protractor/blob/master/docs/referenceConf.js</a></p></li>
+  <li><p>End user need to change suites section of this file</p></li>
+  </ul>
+</blockquote>
+
+<p><strong>protractor.prepare.js</strong></p>
+
+<blockquote>
+  <ul>
+  <li>Tasks to perform before the actual test to start.</li>
+  </ul>
+  
+  <p>Refer Note1</p>
+</blockquote>
+
+<p><strong>setUpGlobals.js</strong></p>
+
+<blockquote>
+  <ul>
+  <li>Run this file with language and environment details to copy respective data to run_data folder which is being used in tests</li>
+  </ul>
+  
+  <p>Refer Note1</p>
+</blockquote>
+
+<hr>
+
+
+
+<h2 id="demo">Demo</h2>
+
+<p><strong>Prerequisites:</strong></p>
+
+<blockquote>
+  <ul>
+  <li>Install Nodejs and NPM</li>
+  <li>Run npm install at project root directory (i.e protractortests/)</li>
+  </ul>
+</blockquote>
+
+<p><strong>How to run and view reports:</strong></p>
+
+<ol>
+<li><p>Run <em>node setUpGlobals</em> with environmnet and language specific to your test run</p>
+
+<blockquote>
+  <p>Example: node setUpGlobals Prod FR_Fn means French language and production env is selected (by default QA and US_En is taken if no info given)</p>
+</blockquote></li>
+<li><p>Run <em>protractor protractor.conf.js</em> to run all suites</p>
+
+<blockquote>
+  <p>protractor protractor.conf.js –suite [login to run only login suite]</p>
+</blockquote></li>
+<li><p>Open <em>test_reports/html_reports/Myreports.html</em> to view run results</p>
+
+<blockquote>
+  <p><img src="https://s31.postimg.org/v7ml3p37v/Sample_repo.png" alt="sampleReport" title=""></p>
+</blockquote></li>
+<li><p>Test results in console after test run</p>
+
+<blockquote>
+  <p><img src="https://raw.githubusercontent.com/bcaudan/jasmine-spec-reporter/master/screenshot.png" alt="sampleReport" title=""></p>
+</blockquote></li>
+</ol>
+
+<hr>
+
+
+
+<h2 id="tools-used">Tools Used</h2>
+
+<blockquote>
+  <ul>
+  <li>protractor(respective dependencies nodejs and npm etc)</li>
+  <li>jasmine2</li>
+  <li>protractor-jasmine2-screenshot-reporter</li>
+  <li>jasmine-spec-reporter</li>
+  </ul>
+</blockquote></div></body>
+</html>

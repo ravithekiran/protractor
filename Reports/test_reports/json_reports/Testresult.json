@@ -1,0 +1,249 @@
+[
+  {
+    "description": "Validating links in header Loading Home Page ",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 24186
+  },
+  {
+    "description": "Validating links in header Validate Correct page Loaded",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 694
+  },
+  {
+    "description": "Validating links in header comparing TestData and Site header Links Count",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 725
+  },
+  {
+    "description": "Validating links in header Comparing value or text of link in footer at index 0",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 736
+  },
+  {
+    "description": "Validating links in header Comparing href values of links in header at index 0",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 754
+  },
+  {
+    "description": "Validating links in header Clicking link in header at idx 0",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 891
+  },
+  {
+    "description": "Validating links in header Shifting windows and validating them of link at index 0",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1765
+  },
+  {
+    "description": "Validating links in header Comparing value or text of link in footer at index 1",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 687
+  },
+  {
+    "description": "Validating links in header Comparing href values of links in header at index 1",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 731
+  },
+  {
+    "description": "Validating links in header Clicking link in header at idx 1",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 881
+  },
+  {
+    "description": "Validating links in header Shifting windows and validating them of link at index 1",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1909
+  },
+  {
+    "description": "Validating links in header Comparing value or text of link in footer at index 2",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 687
+  },
+  {
+    "description": "Validating links in header Comparing href values of links in header at index 2",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 687
+  },
+  {
+    "description": "Validating links in header Clicking link in header at idx 2",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 809
+  },
+  {
+    "description": "Validating links in header Shifting windows and validating them of link at index 2",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1712
+  },
+  {
+    "description": "Validating links in header Comparing value or text of link in footer at index 3",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 704
+  },
+  {
+    "description": "Validating links in header Comparing href values of links in header at index 3",
+    "assertions": [
+      {
+        "passed": false,
+        "errorMsg": "Expected 'http://blackrock.dev.phenompro.com/blackrockoncampus' to equal 'http://www.blackrockoncampus.com/', 'Mismatch of href values of link in header'.",
+        "stackTrace": "Error: Failed expectation\n    at Object.<anonymous> (E:\\protractorcms\\cyborg\\features\\header1\\common\\hea_common.js:18:31)\n    at C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:102:25\n    at new ManagedPromise (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at controlFlowExecute (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:87:18)\n    at TaskQueue.execute_ (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2860:25)\n    at C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)"
+      }
+    ],
+    "duration": 712
+  },
+  {
+    "description": "Validating links in header Clicking link in header at idx 3",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 2176
+  },
+  {
+    "description": "Validating links in header Shifting windows and validating them of link at index 3",
+    "assertions": [
+      {
+        "passed": false,
+        "errorMsg": "Expected 1 to equal 2, 'Link should open in a new window but it opened in same window'.",
+        "stackTrace": "Error: Failed expectation\n    at userActions.shiftingBrowserWindowTabs (E:\\protractorcms\\cyborg\\utility\\user_actions.js:86:39)\n    at E:\\protractorcms\\cyborg\\features\\header1\\common\\hea_common.js:27:29\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\Ravikiran\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:103:7)"
+      }
+    ],
+    "duration": 2431
+  },
+  {
+    "description": "Validating links in header Comparing value or text of link in footer at index 4",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1534
+  },
+  {
+    "description": "Validating links in header Comparing href values of links in header at index 4",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 699
+  },
+  {
+    "description": "Validating links in header Clicking link in header at idx 4",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 821
+  },
+  {
+    "description": "Validating links in header Shifting windows and validating them of link at index 4",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1695
+  },
+  {
+    "description": "Validating links in header Comparing value or text of link in footer at index 5",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 697
+  },
+  {
+    "description": "Validating links in header Comparing href values of links in header at index 5",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 698
+  },
+  {
+    "description": "Validating links in header Clicking link in header at idx 5",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 818
+  },
+  {
+    "description": "Validating links in header Shifting windows and validating them of link at index 5",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1850
+  }
+]

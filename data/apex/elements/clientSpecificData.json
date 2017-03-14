@@ -1,0 +1,13 @@
+{
+  "_Comments":"//same //new //",
+  "footer_links_window":"new",
+  "header_links_window":"new",
+  "footer_sharing_links_window":"new",
+  "qa_url":"http://blackrock.dev.phenompro.com/",
+  "stage_url":"",
+  "prod_url":"https://jobs.apexlifesciences.com/",
+  "footer_links":"css@ul[test-id='footer_links'] a",
+  "sharing_footer":"css@ul[test-id='social_links'] a",
+  "header_links":"css@ul[test-id='header_links'] a",
+  "header_logo":"a[test-id='header_logo']"
+  }
